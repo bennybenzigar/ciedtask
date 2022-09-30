@@ -1,0 +1,284 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.dashboard {
+    display: flex;
+    align-items: row;
+
+}
+
+i {
+    color: #FF831A;
+
+}
+
+.information {
+    border: solid 2px blue;
+    border-radius: 25px;
+    width: max-content;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardspan {
+    background-color: white;
+    color: black;
+    
+    border-radius: 25px;
+}
+
+.icard {
+    color: black;
+
+}
+
+.unameid {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.viewallbtn {
+    border-radius: 25px;
+    margin-left: 48%;
+
+}
+
+.bluecard {
+    background-color: #005EFF;
+    color: white;
+}
+
+.greencard {
+    background-color: #4A9C88;
+    color: white;
+
+}
+
+.dashbody {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logoutdiv {
+    justify-content: end;
+    cursor: pointer;
+}
+
+.sideuserinfo {
+    display: flex;
+    flex-direction: row;
+    background: #F7F9FF;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    height:50px;
+cursor: pointer;
+  
+border-radius: 31px;
+
+}
+
+.sidebarimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+th,
+td {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+th {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    color: #707070;
+    background: #EFF1F3;
+
+
+    text-align: center;
+}
+
+table {
+    width: 100%;
+
+    text-align: left;
+}
+
+span {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #202020;
+}
+
+
+tr:hover {
+
+
+    background: #EDF6FE;
+
+
+
+}
+
+
+.id {
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+
+
+
+    color: #707070;
+}
+
+.b {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #202020;
+}
+
+.view,
+a {
+    color: white;
+}
+
+
+.view:hover {
+    color: #202020;
+}
+
+a:hover {
+    color: #202020;
+}
+
+
+.card-title {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.card-text{
+   
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 37px;
+
+
+color: #FFFFFF;
+
+}
+
+.sidename{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+
+
+color: #202020;
+}
+
+
+.sidenumber{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+
+
+color: #707070;
+
+}
+
+.closebtn{
+  background-image: url(https://i.postimg.cc/gcwWc8xJ/2048px-Solid-blue-svg.png);
+ background-size: 20px 60px;
+ padding-top: 20px;
+
+}
+
+.dash{
+    display: flex;
+    
+    align-items: center;
+    
+   
+}
+
+.ddd{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 15px;
+
+color: #202020;
+}
+
+.viewth{
+    color: #EDF6FE
+}
+
+.viewmain{
+    color: #202020;
+    font-weight: 400;
+}
+
+.dhead{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    
+    color: #202020;
+}
+
+.dp{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+
+color: #707070;
+}
+
+.ds{
+    font-size: 14px;
+}

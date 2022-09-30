@@ -1,0 +1,171 @@
+body {
+    height: 100vh;
+}
+
+.overlayy {
+    z-index: 2;
+    position: absolute;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 34px; */
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.underlayy {
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.heading {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #202020;
+
+}
+
+.lorem {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #707070;
+
+}
+
+
+
+.txt {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+
+    color: #000000;
+}
+
+.loginbtn {
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+
+.bold {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #000000;
+}
+
+.country {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    /* line-height: 160%; */
+   
+    color: #000000;
+
+}
+
+
+.countrybtn {
+
+    width: 55px;
+  
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+    
+}
+
+
+
+.login {
+    /* width:100%;
+height:100%; */
+    background-color: white;
+
+}
+
+
+/* 
+img{
+    max-width: 720px;
+    max-height:770px ;
+} */
+
+
+input::placeholder {
+    position: absolute;
+
+    height: 13px;
+
+
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #707070;
+    margin-top: 0px;
+}
+
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+
+.form-check {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.finaldiv {
+    /* background-color: aqua; */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.x{
+    width: 9px;
+    height: 9px;
+}
